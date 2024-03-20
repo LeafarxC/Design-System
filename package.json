@@ -12,5 +12,8 @@
     "@vitejs/plugin-react": "^4.2.1",
     "turbo": "^1.12.5",
     "vite": "^5.2.2"
+  },
+  "dependencies": {
+    "parse-url": "^9.0.1"
   }
 }
