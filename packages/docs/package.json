@@ -1,13 +1,14 @@
 {
   "name": "@ignite-ui/docs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "build-storybook": "storybook build"
+    "storybook": "sb dev",
+    "build-storybook": "sb build"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
