@@ -15,12 +15,7 @@ const config: StorybookConfig = {
     "../src/pages/**/*.mdx", 
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
-  viteFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/Design-System/'
-    }
-    return config
-  },
+
   addons: [
     getAbsolutePath("storybook-dark-mode"),
     getAbsolutePath("@storybook/addon-a11y"),
