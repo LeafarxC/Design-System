@@ -1,0 +1,1 @@
+import{t as e}from"./index-Ctt_cI1h.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";const a={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:e.dark}}};export{a as default};
